@@ -14,7 +14,7 @@ map.on('load', function () {
             'source': {
                 'type': 'raster',
                 'tiles': [
-                    'http://services.kortforsyningen.dk/service?token=cbf4f1b233e56fc37637cee2721ca9a8&styles=Roede_Jordstykker&servicename=mat&LAYERS=Jordstykke&TRANSPARENT=TRUE&FORMAT=image%2Fpng&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG%3A3857&BBOX={bbox-epsg-3857}&WIDTH=256&HEIGHT=256'
+                    'https://services.kortforsyningen.dk/service?token=cbf4f1b233e56fc37637cee2721ca9a8&styles=Roede_Jordstykker&servicename=mat&LAYERS=Jordstykke&TRANSPARENT=TRUE&FORMAT=image%2Fpng&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG%3A3857&BBOX={bbox-epsg-3857}&WIDTH=256&HEIGHT=256'
                 ],
                 'tileSize': 256
             },
