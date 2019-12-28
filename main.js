@@ -6,6 +6,12 @@ var map = new mapboxgl.Map({
     zoom: 14 // starting zoom
 });
 
+// disable map rotation using right click + drag
+map.dragRotate.disable();
+ 
+// disable map rotation using touch rotation gesture
+map.touchZoomRotate.disableRotation();
+
 map.on('load', function () {
     map.addLayer(
         {
